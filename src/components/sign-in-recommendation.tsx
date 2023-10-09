@@ -21,9 +21,9 @@ export default function SignInRecommendation() {
       <h1 className="text-3xl font-bold text-slate-100 float-right text-right">
         <ArrowUpIcon className="h-32 w-32 float-right" aria-hidden="true" />
         <br />
-        Welcome to Developer Journey App.
+        Domena na prodej / Domain for sale
         <br />
-        Sign in to play!
+        Kontakt/Contact: mat3d.cz@gmail.com
       </h1>
     </div>
   )

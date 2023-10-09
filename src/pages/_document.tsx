@@ -19,7 +19,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="description" content="Google Cloud Developer Journey App for JavaScript" />
+        <meta name="description" content="Domain for sale" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className='bg-slate-700'>
