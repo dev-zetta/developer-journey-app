@@ -17,7 +17,7 @@ import Image from 'next/image';
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useRouter } from 'next/router'
-import { signIn, signOut, useSession } from 'next-auth/react'
+//import { signIn, signOut, useSession } from 'next-auth/react'
 import Link from 'next/link';
 
 function classNames(...classes: any) {
@@ -26,7 +26,7 @@ function classNames(...classes: any) {
 
 export default function Navbar() {
   const router = useRouter()
-  const { data: session } = useSession();
+  /*const { data: session } = useSession();*/
 
   const navigation = [
     { name: 'Home', href: '/' },
